@@ -60,7 +60,6 @@
     "grunt-sails-linker": "~0.10.1",
     "grunt-sync": "^0.8.0",
     "include-all": "^4.0.3",
-    "npm-run-all": "^4.1.1",
     "rc": "^1.2.8",
     "rxjs": "~6.3.3",
     "sails": "^1.1.0",
