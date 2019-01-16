@@ -26,10 +26,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot([
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: HomeComponent }
-    ], {useHash: true})
+    RouterModule.forRoot([], {useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
